@@ -495,9 +495,9 @@
                             </label>
                         </div>
                     </div>
-                    <textarea placeholder="대사 앞에 [GM],[주사위], [캐릭터 이름] 을 넣으면 적용됩니다. &#10 아무것도 적지 않으면 단순한 나레이션으로 적용됩니다. " class="w-full h-36 p-3 border border-gray-200 rounded-lg text-sm font-mono outline-none focus:ring-2 focus:ring-violet-500 dialogue-textarea">${initialValue || ''}</textarea>
-                `;
-            }
+                            <textarea placeholder="대사 앞에 [GM],[주사위], [캐릭터 이름] 을 넣으면 적용됩니다. &#10 아무것도 적지 않으면 단순한 나레이션으로 적용됩니다.&#10 코코포리아에서 추출한 HTML파일 혹은 롤20에서 추출한 코드 파일을 넣으면 자동으로 백업방식 그대로 추출됩니다. " class="w-full h-36 p-3 border border-gray-200 rounded-lg text-sm font-mono outline-none focus:ring-2 focus:ring-violet-500 dialogue-textarea">${initialValue || ''}</textarea>
+    `;
+}
             wrapper.innerHTML = html;
             container.appendChild(wrapper);
         }
